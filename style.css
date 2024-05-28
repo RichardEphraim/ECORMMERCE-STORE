@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height:30vh;
+    background-color: black;
+}
+.flex-box{
+    display: flex;
+   height: 70vh;
+}
+.flex-right{
+    background-color: red;
+    width: 30%;
+}
+.flex-left{
+    width: 70%;
+    background-color: rosybrown;
+}
