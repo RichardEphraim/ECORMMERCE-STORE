@@ -1,6 +1,6 @@
 import React, {useContext} from "react";
 import './css/ShopCategory.css'
-import { Shopcontext } from "../Context/Shopcontext";
+import { Shopcontext } from '../Context/Shopcontext';
 import dropdown_icon from '../Components/Assets/dropdown_icon.png'
 import Item from '../Components/Items/Items'
 
@@ -9,7 +9,7 @@ const ShopCategory = (props) => {
     return(
         <div className="shopcategory">
 
-            <img src={props.banner} alt="" />
+            <img className="shopcategory-banner" src={props.banner} alt="" />
             <div className="shopcategory-indexsort">
                 <p>
                     <span>Showing 1-12</span> out of 36 products
@@ -28,7 +28,9 @@ const ShopCategory = (props) => {
                     }
                 })}
             </div>
-
+                <div className="shopcategory-loadmore">
+                    Explore More
+                </div>
         </div>
     )
 }
