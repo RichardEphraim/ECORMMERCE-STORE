@@ -57,3 +57,56 @@
     font-size: 15px;
     font-weight: 500;
 }
+
+@media(max-width:1280px){
+    .loginpage{
+        padding-top: 50px ;
+    }
+    .loginpage-container{
+        width: auto;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .loginpage-container h1{
+        margin: 10px 0px;
+    }
+    .loginpage-fields{
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .loginpage-fields input{
+        height: 65px;
+        width: 93%;
+    }
+    .loginpage-container button{
+        width: 100%;
+    }
+    .loginpage-login{
+        font-size: 16px;
+
+    }
+    .loginpage-agree{
+        font-size: 14px;
+        gap: 10px;
+    }
+}
+
+@media(max-width:800px){
+    .loginpage-container{
+        padding: 20px 30px;
+
+    }
+    .loginpage-container h1{
+        font-size: 24px;
+    }
+    .loginpage-fields{
+        margin-top: 20px;
+    }
+    .loginpage-fields input{
+        height: 50px;
+    }
+    .loginpage-container button{
+        height: 50px;
+        font-size: 16px;
+    }
+}
